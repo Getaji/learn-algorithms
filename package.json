@@ -1,0 +1,22 @@
+{
+  "name": "learn-algorithms",
+  "version": "1.0.0",
+  "description": "Learn algorithms",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Getaji/learn-algorithms.git"
+  },
+  "author": "Getaji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Getaji/learn-algorithms/issues"
+  },
+  "homepage": "https://github.com/Getaji/learn-algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
