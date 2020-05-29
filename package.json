@@ -4,7 +4,7 @@
   "description": "Learn algorithms",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest && codecov"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
