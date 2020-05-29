@@ -1,6 +1,9 @@
 learn-algorithms
 ====
 
+[![codecov](https://codecov.io/gh/Getaji/learn-algorithms/branch/master/graph/badge.svg?token=JPV8JM7TXT)](https://codecov.io/gh/Getaji/learn-algorithms)
+![CI](https://github.com/Getaji/learn-algorithms/workflows/Node.js%20CI/badge.svg)
+
 並び替え・探索などのアルゴリズムを実装作業を通して学習し、なおかつ実装したコードを管理することで今後に役立てることを期待する。
 
 ## 運用
