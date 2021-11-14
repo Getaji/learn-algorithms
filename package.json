@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Getaji/learn-algorithms#readme",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^27.3.1"
   },
   "jest": {
     "testRegex": "(/test/.*|\\.test)\\.js$",
