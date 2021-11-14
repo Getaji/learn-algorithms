@@ -11,12 +11,9 @@
  * [シェーカーソート - Wikipedia](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%BC%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%BC%E3%83%88)
  *
  * この関数は引数に渡された配列を変更します。
- *
- * @param {any[]} array
- * @return {any[]}
  */
 
-function insertionSort(array) {
+export default function insertionSort(array: any[]) {
   let topIndex = 0;
   let botIndex = array.length - 1;
 
@@ -58,5 +55,3 @@ function insertionSort(array) {
 
   return array;
 }
-
-module.exports = insertionSort;

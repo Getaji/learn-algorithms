@@ -1,4 +1,4 @@
-const bubbleSort = require("../../src/sort/bubbleSort");
+import bubbleSort from "../../src/sort/bubbleSort";
 
 describe("バブルソート", () => {
   it("既に昇順に並んでいる配列は変更がない", () => {

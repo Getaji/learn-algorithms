@@ -1,4 +1,4 @@
-const shakerSort = require("../../src/sort/shakerSort");
+import shakerSort from "../../src/sort/shakerSort";
 
 describe("挿入ソート", () => {
   it("既に昇順に並んでいる配列は変更がない", () => {

@@ -12,12 +12,9 @@
  * [バブルソート - Wikipedia](https://ja.wikipedia.org/wiki/%E3%83%90%E3%83%96%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%88)
  * 
  * この関数は引数に渡された配列を変更します。
- * 
- * @param {any[]} array
- * @return {any[]}
  */
 
-function bubbleSort(array) {
+export default function bubbleSort(array: any[]) {
   const len = array.length - 1;
 
   for (let i = 0; i < len; ++i) {
@@ -32,5 +29,3 @@ function bubbleSort(array) {
 
   return array;
 }
-
-module.exports = bubbleSort;

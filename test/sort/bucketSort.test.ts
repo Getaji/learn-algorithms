@@ -1,4 +1,4 @@
-const bucketSort = require("../../src/sort/bucketSort");
+import bucketSort from "../../src/sort/bucketSort";
 
 describe("挿入ソート", () => {
   it("既に昇順に並んでいる配列は変更がない", () => {

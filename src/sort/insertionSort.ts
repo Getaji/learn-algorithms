@@ -13,12 +13,9 @@
  * [挿入ソート - Wikipedia](https://ja.wikipedia.org/wiki/%E6%8C%BF%E5%85%A5%E3%82%BD%E3%83%BC%E3%83%88)
  * 
  * この関数は引数に渡された配列を変更します。
- * 
- * @param {any[]} array
- * @return {any[]}
  */
 
-function insertionSort(array) {
+export default function insertionSort(array: any[]) {
   const len = array.length;
 
   for (let i = 1; i < len; ++i) {
@@ -39,5 +36,3 @@ function insertionSort(array) {
 
   return array;
 }
-
-module.exports = insertionSort;

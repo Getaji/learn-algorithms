@@ -13,13 +13,12 @@
  * 
  * この関数は引数に渡された配列を変更しません。
  * 
- * @param {any[]} array ソートする配列
- * @param {number} len ソート対象となるデータの個数
- * @param {number} range 取りうる値の範囲
- * @return {any[]}
+ * @param array ソートする配列
+ * @param len ソート対象となるデータの個数
+ * @param range 取りうる値の範囲
  */
 
-function bucketSort(array, len, range) {
+export default function bucketSort(array: number[], len: number, range: number) {
   if (!array || !array.length) return [];
 
   if (array.length === 1) return array.slice();
@@ -53,5 +52,3 @@ function bucketSort(array, len, range) {
 
   return dst;
 }
-
-module.exports = bucketSort;

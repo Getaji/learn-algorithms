@@ -1,4 +1,4 @@
-const insertionSort = require("../../src/sort/insertionSort");
+import insertionSort from "../../src/sort/insertionSort";
 
 describe("挿入ソート", () => {
   it("既に昇順に並んでいる配列は変更がない", () => {
