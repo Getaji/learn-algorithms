@@ -41,7 +41,7 @@ describe("挿入ソート", () => {
   });
 
   it("サンプル5: [0...49] shuffle", () => {
-    const array = Array(50).map((_, i) => i);
+    const array = Array(50).fill(0).map((_, i) => i);
     expect(combSort11(shuffle(array.slice()))).toMatchObject(array);
   });
 });
