@@ -35,7 +35,7 @@ export default function combSort(array: any[]) {
         swaps++;
       }
     }
-    
+
     if (h === 1) {
       if (swaps === 0) {
         // 間隔1かつ入れ替えが発生しなかったら終了

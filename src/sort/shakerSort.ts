@@ -12,7 +12,6 @@
  *
  * この関数は引数に渡された配列を変更します。
  */
-
 export default function insertionSort(array: any[]) {
   let topIndex = 0;
   let botIndex = array.length - 1;

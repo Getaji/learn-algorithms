@@ -33,7 +33,7 @@ export default function combSort(array: any[]) {
         swaps++;
       }
     }
-    
+
     if (h === 1) {
       if (swaps === 0) {
         // 間隔1かつ入れ替えが発生しなかったら終了
@@ -43,7 +43,7 @@ export default function combSort(array: any[]) {
     } else {
       // 間隔を再計算して継続する
       h = Math.floor((h * 10) / 13);
-      
+
       /* istanbul ignore next */
       if (h === 0) {
         h = 1;
