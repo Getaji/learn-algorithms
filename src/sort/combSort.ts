@@ -46,6 +46,7 @@ export default function combSort(array: any[]) {
       // 間隔を再計算して継続する
       h = Math.floor((h * 10) / 13);
 
+      /* istanbul ignore next */
       if (h === 0) {
         h = 1;
       }

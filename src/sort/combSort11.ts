@@ -43,7 +43,8 @@ export default function combSort(array: any[]) {
     } else {
       // 間隔を再計算して継続する
       h = Math.floor((h * 10) / 13);
-
+      
+      /* istanbul ignore next */
       if (h === 0) {
         h = 1;
       } else if (h === 9 || h === 10) {
