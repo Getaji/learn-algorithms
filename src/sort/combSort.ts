@@ -45,6 +45,10 @@ export default function combSort(array: any[]) {
     } else {
       // 間隔を再計算して継続する
       h = Math.floor((h * 10) / 13);
+
+      if (h === 0) {
+        h = 1;
+      }
     }
   }
 
