@@ -9,7 +9,7 @@
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
-export default function binarySearch(array: any[], value: any): number {
+export default function binarySearchAlt(array: any[], value: any): number {
   let min = 0;
   let max = array.length - 1;
   while (min !== max) {
