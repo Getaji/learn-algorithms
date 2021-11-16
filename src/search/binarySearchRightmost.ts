@@ -8,9 +8,9 @@
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
-export default function binarySearchRightmost(
-  array: any[],
-  value: any
+export default function binarySearchRightmost<T = any>(
+  array: T[],
+  value: T
 ): number {
   let min = 0;
   let max = array.length;

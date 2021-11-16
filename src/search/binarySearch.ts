@@ -11,7 +11,7 @@
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
-export default function binarySearch(array: any[], value: any): number {
+export default function binarySearch<T = any>(array: T[], value: T): number {
   for (let min = 0, max = array.length - 1; min <= max; ) {
     let mid = Math.floor(min + (max - min) / 2);
 

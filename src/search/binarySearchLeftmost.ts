@@ -8,7 +8,10 @@
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
-export default function binarySearchLeftmost(array: any[], value: any): number {
+export default function binarySearchLeftmost<T = any>(
+  array: T[],
+  value: T
+): number {
   let min = 0;
   let max = array.length - 1;
 

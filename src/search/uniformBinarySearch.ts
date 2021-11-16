@@ -10,22 +10,26 @@
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
-export function uniformBinarySearch<T = any>(array: T[], table: number[], value: T): number {
+export function uniformBinarySearch<T = any>(
+  array: T[],
+  table: number[],
+  value: T
+): number {
   let i = table[0] - 1;
   let count = 0;
 
   while (table[count] !== 0) {
-      if (array[i] === value) {
-          return i;
-      }
-      if (table[count] === 0) {
-        return -1;
-      }
-      if (array[i] > value) {
-          i -= table[++count];
-      } else {
-          i += table[++count];
-      }
+    if (array[i] === value) {
+      return i;
+    }
+    if (table[count] === 0) {
+      return -1;
+    }
+    if (array[i] > value) {
+      i -= table[++count];
+    } else {
+      i += table[++count];
+    }
   }
 
   return -1;
