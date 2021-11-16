@@ -11,6 +11,7 @@
 export default function binarySearchLeftmost(array: any[], value: any): number {
   let min = 0;
   let max = array.length - 1;
+
   while (min < max) {
     let mid = Math.floor(min + (max - min) / 2);
 
@@ -21,9 +22,5 @@ export default function binarySearchLeftmost(array: any[], value: any): number {
     }
   }
 
-  if (array[min] === value) {
-    return min;
-  }
-
-  return -1;
+  return array[min] === value ? min : -1;
 }

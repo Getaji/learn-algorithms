@@ -12,12 +12,12 @@
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
 export default function binarySearch(array: any[], value: any): number {
-  for (let min = 0, max = array.length - 1; min <= max;) {
+  for (let min = 0, max = array.length - 1; min <= max; ) {
     let mid = Math.floor(min + (max - min) / 2);
 
     if (array[mid] < value) {
       min = mid + 1;
-    } else if(array[mid] > value) {
+    } else if (array[mid] > value) {
       max = mid - 1;
     } else {
       return mid;

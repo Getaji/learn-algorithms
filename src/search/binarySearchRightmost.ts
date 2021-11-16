@@ -8,12 +8,16 @@
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
-export default function binarySearchRightmost(array: any[], value: any): number {
+export default function binarySearchRightmost(
+  array: any[],
+  value: any
+): number {
   let min = 0;
   let max = array.length;
-  
+
   while (min < max) {
     const mid = Math.floor(min + (max - min) / 2);
+
     if (array[mid] > value) {
       max = mid;
     } else {
