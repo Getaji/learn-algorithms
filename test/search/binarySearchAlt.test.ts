@@ -1,6 +1,6 @@
 import binarySearchAlt from "../../src/search/binarySearchAlt";
 
-describe("二分探索", () => {
+describe("二分探索・別バージョン", () => {
   it("含まれる値", () => {
     expect(binarySearchAlt([0, 1], 0)).toBe(0);
     expect(binarySearchAlt([0, 1], 1)).toBe(1);
