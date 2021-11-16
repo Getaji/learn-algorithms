@@ -22,6 +22,7 @@ export function uniformBinarySearch<T = any>(
     if (array[i] === value) {
       return i;
     }
+    /* istanbul ignore next */
     if (table[count] === 0) {
       return -1;
     }
