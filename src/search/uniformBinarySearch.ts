@@ -6,7 +6,7 @@
  * - ルックアップテーブルは一般的に加算やシフトよりも高速である。
  * - 多くの検索は、同じ配列、あるいは同じ長さの複数の配列に対して行われる。
  *
- * [二分探索 - Wikipedia](https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%88%86%E6%8E%A2%E7%B4%A2)
+ * [Uniform binary search - Wikipedia](https://en.wikipedia.org/wiki/Uniform_binary_search)
  *
  * @return 見つかったデータのインデックス(存在しない場合は-1)
  */
