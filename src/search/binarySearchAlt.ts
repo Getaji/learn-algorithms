@@ -14,7 +14,7 @@ export default function binarySearchAlt<T = any>(array: T[], value: T): number {
   let max = array.length - 1;
 
   while (min !== max) {
-    let mid = Math.ceil((min + max) / 2);
+    let mid = Math.floor(min + (max - min) / 2);
 
     if (array[mid] > value) {
       max = mid - 1;
