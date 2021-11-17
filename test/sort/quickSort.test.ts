@@ -9,7 +9,7 @@ function shuffle(array: any[]) {
   return array;
 }
 
-describe("クイックソート (Lomuto partition scheme)", () => {
+describe("クイックソート", () => {
   it("既に昇順に並んでいる配列は変更がない", () => {
     expect(quickSort([0, 1, 2, 3, 4])).toMatchObject([0, 1, 2, 3, 4]);
   });
